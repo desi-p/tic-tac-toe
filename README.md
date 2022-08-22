@@ -23,60 +23,61 @@ Additional Push Goals and Dreams:
 
 
 Below is an example of our work-flow
-//Group Notes!!!!
-//filter function that filters for class of 'x'= identify the return as the [] for player1state
-//possible player1state as object? with values or method as property?
-//start with 2 player --- add computer function later if wanna push
 
-//2 player game:
-//playerOne - X
-//playerTwo - O
+Group Notes!!!!
+filter function that filters for class of 'x'= identify the return as the [] for player1state
+possible player1state as object? with values or method as property?
+start with 2 player --- add computer function later if wanna push
 
-//eventlisteners onclick for player1 -done
-//eventlisteners onclick for player2 -done
-//they need to be in turns...so once X goes then 0's turn - done
-//shows on html who's turn it is - done
-  //based on counter value, conditional statement to pick the function for the correct turn -done
-  //i.e. counter = 1 (player 1 turn(toggleX)), counter = 2 (player 2 turn(toggleO)) - done
+2 player game:
+playerOne - X
+playerTwo - O
 
-//update tile on html (img) - done
+eventlisteners onclick for player1 -done
+eventlisteners onclick for player2 -done
+they need to be in turns...so once X goes then 0's turn - done
+shows on html who's turn it is - done
+  based on counter value, conditional statement to pick the function for the correct turn -done
+  i.e. counter = 1 (player 1 turn(toggleX)), counter = 2 (player 2 turn(toggleO)) - done
 
-//turns - not done
-  //accepts turn and adds to player1 state
-  //accepts turn and adds to player2 state
-  //compares player1 state to winning combinations
-  //comapers player2 state to winning combinations
+update tile on html (img) - done
 
-//wins: - not done
-  //forEach to compare the winCons against player1 or player2's state
-    //conditional = if it matches a winning combination then it's a win  
-    //if not, continues to next player
-    //if all tiles filled and no winning combination, it's a draw
-    //return if there is a winner or not (use boolean?)
-  //render to HTML if Player1 wins, Player2 wins or Draw
+turns - done
+  accepts turn and adds to player1 state - done
+  accepts turn and adds to player2 state - done
+  compares player1 state to winning combinations - done
+  comapers player2 state to winning combinations - done
 
-//reset board - done'ish
-  //will need a reset button
-  //connect with javascript function to clear board and render empty board in html format
+wins: - done
+  forEach to compare the winCons against player1 or player2's state - done
+    conditional = if it matches a winning combination then it's a win  - done
+    if not, continues to next player - done
+    if all tiles filled and no winning combination, it's a draw - done
+    return if there is a winner or not (use boolean?) - done
+  render to HTML if Player1 wins, Player2 wins or Draw - done
 
-//push goals:
-  //HTML
-    //input text areas for player names
-    //connect values with player1 and player2 in javascript
-    //render player names instead of player1 and player2 when rending the win outcome
+reset board - done 
+  will need a reset button - done
+  connect with javascript function to clear board and render empty board in html format - done
 
-  //CSS
-    //make pretty with background/design? borders?
-    //format text/header
-    //placement of winner results, player turn notification, etc
+push goals:
+  HTML
+    input text areas for player names
+    connect values with player1 and player2 in javascript
+    render player names instead of player1 and player2 when rending the win outcome
 
-  //JavaScript
-    //make object oriented (use class/constructors and all of the good stuff)
-    //make code DRY
-    //add computer opponent
-      //possibly add option for two player game or one player vs computer
-      //AI vs computer random selection vs preferred choice arrays?
-      //delay showing player turns so human players can process the information and changes (2 second delay) - done
-      //Random selection of who goes first (player 1, player 2 or computer)
-        //if randomly selected, will need to update HTML to display who goes first; currently only shows Player1
-      //set up Draw for when no winning combinations can be reached instead of just tiles being filled
+  CSS
+    make pretty with background/design? borders?
+    format text/header
+    placement of winner results, player turn notification, etc
+
+  JavaScript
+    make object oriented (use class/constructors and all of the good stuff)
+    make code DRY
+    add computer opponent
+      possibly add option for two player game or one player vs computer
+      I vs computer random selection vs preferred choice arrays?
+      delay showing player turns so human players can process the information and changes (2 second delay) - done
+      Random selection of who goes first (player 1, player 2 or computer)
+        if randomly selected, will need to update HTML to display who goes first; currently only shows Player1
+      set up Draw for when no winning combinations can be reached instead of just tiles being filled
