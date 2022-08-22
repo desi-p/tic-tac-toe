@@ -1,0 +1,68 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+}
+
+.board div {
+  border: 1px solid red;
+  flex-basis: 33.3%;
+  display: flex;
+  flex-direction: column;
+}
+
+div span {
+  border: 1px solid red;
+  width: fit-content;
+
+}
+
+.board {
+  display: flex;
+  flex-flow: column wrap;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.x {
+  background-image: url('../img/istockphoto-158002966-612x612.jpg');
+  background-size: cover;
+}
+
+.o {
+  background-image: url('../img/letter_O_blue-512.png');
+  background-size: cover;
+}
+button {
+  display:flex;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.tile:hover {
+  cursor: pointer;
+}
+
+h1,h2{
+  text-align: center;
+}
