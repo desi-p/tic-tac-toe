@@ -81,3 +81,10 @@ push goals:
       Random selection of who goes first (player 1, player 2 or computer)
         if randomly selected, will need to update HTML to display who goes first; currently only shows Player1
       set up Draw for when no winning combinations can be reached instead of just tiles being filled
+
+OOP Notes!
+
+Ideas:
+
+Individual Objects for Player
+Individual Object for Game - includes players and all functions

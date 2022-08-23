@@ -1,10 +1,30 @@
+//object Game
+
+
+//determine constructors
+  //will there be any parameters for the constructors?
+  //are players a constructor or property?
+  //key:value pairs
+    //tiles, winCons, player1State and player2State
+
+//methods:
+  //checkwin
+    //renders to HTML
+  //turns - player1 or player2
+    //counts turns and renders to HTML
+  //reset
+    //resets board
+
+
+//
+
 //grabbing tiles from html doc
 let tiles = Array.from(document.querySelectorAll('.tile'))
 
 //array for all winning combinations
 const winCons = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]]
 
-//setting arrays to show players choices (will use to compare to the winning combinations later
+//setting arrays to show players choices (will use to compare to the winning combinations later)
 let player1State = []
 
 let player2State = []
